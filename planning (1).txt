@@ -1,0 +1,104 @@
+[Thema]
+
+??? Thema bestimmt vor allem Gegnertypen.
+==============================================================================================================
+[Türme]
+
+[Basictower(?)]
+	-> Standardturm
+	
+[Minigun]
+	Fähigkeit
+	-> Stack angriffstempo bei andauerndem Angriff
+
+[Lazor]
+	Fähigkeit
+	-> Je höher die Distanz zum Ziel desto weniger Schaden verursacht er.
+	-> verbrennt Gegner
+	Anregung: Würde ihn eher snipermäßig machen... sprich er verliert nichts auf Distanz aber langsame
+	Feuerrate. Andererseits könnte man hierfür natürlich auch einen extra Turm einführen.
+
+[Healer]
+	Fähigkeit
+	-> Heilt Türme (im Radius) in einem Interval den Turm mit geringster HP
+	Anmerkung: Wieso müssen Türme geheilt werden?
+	-> Wenn heilung wieso nicht auch schild?
+
+[Canon]
+	Fähigkeit
+	-> Verursacht AOE Schaden
+	-> Sollte der Turm einen Gegner töten explodiert dieser ebenfalls
+	Anmerkung: Ist das nicht zu op bei einer aoe waffe, die wenn überhaupt mehrere tötet?
+	
+	Pfade: Canon (basic), Raketen, Cluster? Eventuell Bomben mit "Füllung"? Napalmmäßig oder verseuchen
+	Gebiet mit anderem Zeug?
+
+[Mage]
+	Fähigkeit
+	-> Schießt magische Projektile
+	-> Slowed Gegner onhit
+	-> Sollte Gegner geslowed werden verursacht er Bonusschaden
+	
+	Pfade: Elemente bieten sich an. Eventuell auch Fähigkeit (aktiv) kurze Zeit irgendwelche Elementviecher
+	zu beschwören?
+
+[Hexenmeister]
+	Fähigkeit
+	-> beschwört Viecher die kämpfen
+	
+	Pfade: Andere Pfade andere Viecher. Dämonen und Untote bieten sich an.
+
+[Totem]
+	Fähigkeit
+	-> Diverse Buffs wie etwa Attackspeed, Range Modification, usw.
+==============================================================================================================
+[Upgrades]
+
+->	Name:
+	Beschreibung: Kann mehrere Gegner abschießen
+	Max: 3 Gegner
+	Türme: Minigun
+
+->	Name: Berserker
+	Beschreibung: Je weniger HP desto mehr Schaden
+	Türme: Canon
+
+->	Name: Poisener
+	Beschreibung: Fügt bonus Giftschaden hinzu.
+
+-> Name: Ima fiiiring my lazoor!
+   Beschreibung: Der Lazor pierced oder macht explosion?
+   Türme: Lazor
+
+-> Name: Wrath
+	Beschreibung: verleiht nahen Türmen raw dmg für kurze Zeit.
+	Türme: Totem
+==============================================================================================================
+[Techtree]
+
+-> "Poisener" springt auf benachbarten Gegner wenn sein aktuelles Ziel sterben sollte
+
+
+	// Normal
+	100 / 20
+	80
+	60
+	40
+	20
+	0
+	5
+
+	// Berserker / 10% von der fehlenden HP des Gegners als Bonusschaden
+	100 / 20
+	80
+	58 | 80 - 20 - 2
+	33.8 | 58 - 20 - 4.2
+	7.18 | 33.8 - 20 - 6.62
+	0 | 7.18 - 20 - 9.282
+
+-> Erweiterungen hier könnte es einige geben. Am besten einigt man sich am Anfang darauf, wieviele
+   "Pfade" es geben soll. Ich wäre für einen gewissen Grundsatz an Upgrades und dann vielleicht 3 Trees
+   pro Tower. Bei Towers wo uns nix einfällt eventuell auch nur 2.
+-> Weitere Sache über die man sich Gedanken machen sollte:
+   Sollen die Türme Attribute haben, die man verbessern kann, nur diese "Pfadupgrades" haben oder
+   vielleicht sogar beides?
