@@ -102,3 +102,6 @@
 -> Weitere Sache über die man sich Gedanken machen sollte:
    Sollen die Türme Attribute haben, die man verbessern kann, nur diese "Pfadupgrades" haben oder
    vielleicht sogar beides?
+   =============================================================================================================
+   [Enemys]
+   
