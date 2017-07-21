@@ -1,30 +1,84 @@
-[Thema]
+attribute:
+	-HP
+	-HP Regeneration
+	-Armor
+	-Damage
+	-Attack Speed
+	-Crittical Chance
+	-Range
+		
+magic resistenz:
+		-water
+		-fire
+		-earth
+		-air
+		-poisen
+		-nature
+		-arcane
+		-shadow
+		-light
+		
 
-??? Thema bestimmt vor allem Gegnertypen.
+
+
+
+(??? Thema bestimmt vor allem Gegnertypen.)(was ist das leo?, schreibs in die klammern ->())
 ==============================================================================================================
 [Türme]
 
 [Basictower(?)]
 	-> Standardturm
-	
-[Minigun]
+
+--------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[Minigun]-----------------------------------------------------------------------------------------------------
+
 	Fähigkeit
 	-> Stack angriffstempo bei andauerndem Angriff
+	
+	              HP: 400
+	 HP Regeneration: 3
+	           Armor: 35
+	          Damage: 30
+	    Attack Speed: 1.5
+	Crittical Chance: 0
+	           Range: 500
+		   
+--------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////	
+[Lazor]-------------------------------------------------------------------------------------------------------
 
-[Lazor]
 	Fähigkeit
 	-> Je höher die Distanz zum Ziel desto weniger Schaden verursacht er.
 	-> verbrennt Gegner
 	Anregung: Würde ihn eher snipermäßig machen... sprich er verliert nichts auf Distanz aber langsame
 	Feuerrate. Andererseits könnte man hierfür natürlich auch einen extra Turm einführen.
+	
+		      HP: 400
+	 HP Regeneration: 3
+	           Armor: 35
+	          Damage: 70
+	Crittical Chance: 0
+	           Range: 700
+		   
+--------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[Healer]------------------------------------------------------------------------------------------------------
 
-[Healer]
 	Fähigkeit
 	-> Heilt Türme (im Radius) in einem Interval den Turm mit geringster HP
-	Anmerkung: Wieso müssen Türme geheilt werden?
-	-> Wenn heilung wieso nicht auch schild?
+	{Anmerkung: Wieso müssen Türme geheilt werden?= weil die enemys auch schaden an den türmen verursachen.(lösche diese zeile wenn 	du es gelesen hast}
+	
+		      HP: 400
+	 HP Regeneration: 3
+	           Armor: 35
+		    Heal: 50 pro tick (1 tick = 8 sek)
+	           Range: 500
+		   
+--------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[Canon]-------------------------------------------------------------------------------------------------------
 
-[Canon]
 	Fähigkeit
 	-> Verursacht AOE Schaden
 	-> Sollte der Turm einen Gegner töten explodiert dieser ebenfalls
@@ -32,25 +86,65 @@
 	
 	Pfade: Canon (basic), Raketen, Cluster? Eventuell Bomben mit "Füllung"? Napalmmäßig oder verseuchen
 	Gebiet mit anderem Zeug?
+	
+		      HP: 400
+	 HP Regeneration: 3
+	           Armor: 35
+	          Damage: 70
+	    Attack Speed: 0.64285714285714285714285714285714    = [45/70] (70 = damage) (45 = avarage dps per tower)
+	Crittical Chance: 0
+	           Range: 500
+		   
+--------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[Mage]--------------------------------------------------------------------------------------------------------
 
-[Mage]
 	Fähigkeit
 	-> Schießt magische Projektile
 	-> Slowed Gegner onhit
 	-> Sollte Gegner geslowed werden verursacht er Bonusschaden
 	
-	Pfade: Elemente bieten sich an. Eventuell auch Fähigkeit (aktiv) kurze Zeit irgendwelche Elementviecher
-	zu beschwören?
+	
+		      HP: 400
+	 HP Regeneration: 3
+	           Armor: 35
+	          Damage: 50
+	    Attack Speed: 0.9
+	Crittical Chance: 0
+	           Range: 500
+		   
+--------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[Hexenmeister]------------------------------------------------------------------------------------------------
 
-[Hexenmeister]
 	Fähigkeit
 	-> beschwört Viecher die kämpfen
 	
 	Pfade: Andere Pfade andere Viecher. Dämonen und Untote bieten sich an.
+	
+		
+		      HP: 400
+	 HP Regeneration: 3
+	           Armor: 35
+		   
+--------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[Totem]-------------------------------------------------------------------------------------------------------
 
-[Totem]
 	Fähigkeit
 	-> Diverse Buffs wie etwa Attackspeed, Range Modification, usw.
+	
+		
+		      HP: 400
+	 HP Regeneration: 3
+	           Armor: 35
+	           Range: 500
+		   
+--------------------------------------------------------------------------------------------------------------
+==============================================================================================================
+
+
+
 ==============================================================================================================
 [Upgrades]
 
@@ -66,13 +160,18 @@
 ->	Name: Poisener
 	Beschreibung: Fügt bonus Giftschaden hinzu.
 
--> Name: Ima fiiiring my lazoor!
-   Beschreibung: Der Lazor pierced oder macht explosion?
-   Türme: Lazor
+-> 	Name: Ima fiiiring my lazoor!
+   	Beschreibung: Der Lazor pierced oder macht explosion?
+   	Türme: Lazor
 
--> Name: Wrath
+-> 	Name: Wrath
 	Beschreibung: verleiht nahen Türmen raw dmg für kurze Zeit.
 	Türme: Totem
+	
+-> 	Name: Protecion
+	Beschreibung: verleight Türmen einen Schild.
+	Türme: Healer
+	
 ==============================================================================================================
 [Techtree]
 
@@ -104,5 +203,14 @@
    vielleicht sogar beides?
    =============================================================================================================
    [Enemys]
-   test test blabla
-   dfmwergergpdsadsdsa
+   
+   [basic enemy]
+   	
+   
+   
+   
+   
+   
+   
+   
+   
