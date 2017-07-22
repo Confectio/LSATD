@@ -22,7 +22,8 @@ magic resistenz:
 
 
 
-(??? Thema bestimmt vor allem Gegnertypen.)(was ist das leo?, schreibs in die klammern ->())
+(??? Thema bestimmt vor allem Gegnertypen.)(was ist das leo?, schreibs in die klammern ->(Naja z.B. wenn wir ein Zukunftssetting haben,
+wären Roboter und alles mögliche denkbar, während zum Bsp. fantasysetting Orks und was weiß ich drin haben könnte. Aber das sollte man sich eher später überlegen man ist ja flexibel.))
 ==============================================================================================================
 [Türme]
 
@@ -53,6 +54,7 @@ magic resistenz:
 	-> verbrennt Gegner
 	Anregung: Würde ihn eher snipermäßig machen... sprich er verliert nichts auf Distanz aber langsame
 	Feuerrate. Andererseits könnte man hierfür natürlich auch einen extra Turm einführen.
+	WAS SAGT IHR DAZU? SCHREIBT ES DIREKT HIER REIN:
 	
 		      HP: 400
 	 HP Regeneration: 3
@@ -66,8 +68,9 @@ magic resistenz:
 [Healer]------------------------------------------------------------------------------------------------------
 
 	Fähigkeit
-	-> Heilt Türme (im Radius) in einem Interval den Turm mit geringster HP
-	{Anmerkung: Wieso müssen Türme geheilt werden?= weil die enemys auch schaden an den türmen verursachen.(lösche diese zeile wenn 	du es gelesen hast}
+	-> Heilt Türme (im Radius) in einem Interval den Turm mit geringster HP, man könnte auch Flächenheal einführen als Fähigkeit.
+	{Anmerkung: Wieso müssen Türme geheilt werden?= weil die enemys auch schaden an den türmen verursachen.(lösche diese zeile wenn 	du es gelesen hast}. Ok aber inwiefern? Wollen die Gegner jetzt die Türme überwältigen und einen NExus oder sowas oder wollen 
+	die Gegner einfach nur an einen bestimten punkt gelangen um uns Leben abzuziehen (Klassisches TD).
 	
 		      HP: 400
 	 HP Regeneration: 3
@@ -83,6 +86,7 @@ magic resistenz:
 	-> Verursacht AOE Schaden
 	-> Sollte der Turm einen Gegner töten explodiert dieser ebenfalls
 	Anmerkung: Ist das nicht zu op bei einer aoe waffe, die wenn überhaupt mehrere tötet?
+	WAS SAGT IHR DAZU SCHREIBT ES HIER:
 	
 	Pfade: Canon (basic), Raketen, Cluster? Eventuell Bomben mit "Füllung"? Napalmmäßig oder verseuchen
 	Gebiet mit anderem Zeug?
@@ -91,7 +95,7 @@ magic resistenz:
 	 HP Regeneration: 3
 	           Armor: 35
 	          Damage: 70
-	    Attack Speed: 0.64285714285714285714285714285714    = [45/70] (70 = damage) (45 = avarage dps per tower)
+	    Attack Speed: 0.64285714285714285714285714285714    = [45/70] (70 = damage) (45 = average dps per tower)
 	Crittical Chance: 0
 	           Range: 500
 		   
@@ -101,8 +105,13 @@ magic resistenz:
 
 	Fähigkeit
 	-> Schießt magische Projektile
-	-> Slowed Gegner onhit
-	-> Sollte Gegner geslowed werden verursacht er Bonusschaden
+	-> Ich würde sagen er slowt nur wenn man ein Wasserupgrade durchführt. Als späteres Upgrade eine Wasserwelle? MIt schaden
+	knockback oder heal?
+	-> Feuerupgrade verbrennung DoT (schließt wasserupgrade aus). Geysire auftauchen lassen passt hierzu als späteres UPgrade.
+	-> Stein vielleicht einen kurzen Stun?. Golem passt hierzu als späteres Upgrade
+	-> Air vielleicht knockback? Kettenblitz passt hierzu finde ich als späteres Upgrade
+	-> Vielleicht extra tower für elemente was sagt ihr dazu? SCHREIBTS HIER HIN:
+	-> Arcane dann bei mehrfach Hits Bonusschaden. Kettenblitz könnte auch hier passen. Hits verringern MR?
 	
 	
 		      HP: 400
@@ -119,6 +128,8 @@ magic resistenz:
 
 	Fähigkeit
 	-> beschwört Viecher die kämpfen
+	-> Schießt Schatten dmg. Als upgrade Viecher bekehren? Was sagt ihr dazu? SCHREIBT ES HIER:
+	-> Lifesteal?
 	
 	Pfade: Andere Pfade andere Viecher. Dämonen und Untote bieten sich an.
 	
@@ -140,6 +151,14 @@ magic resistenz:
 	           Armor: 35
 	           Range: 500
 		   
+--------------------------------------------------------------------------------------------------------------
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+[Neu: Warrior]-------------------------------------------------------------------------------------------------------
+
+	Fähigkeit
+	-> Spawnt Truppen. Upgrades bewirken HP, armor whatever upgrades, Pfade wären z.B. Ritter oder Axtkämpfer mit
+	diversen Fähigkeiten, usw...
+
 --------------------------------------------------------------------------------------------------------------
 ==============================================================================================================
 
@@ -175,7 +194,7 @@ magic resistenz:
 ==============================================================================================================
 [Techtree]
 
--> "Poisener" springt auf benachbarten Gegner wenn sein aktuelles Ziel sterben sollte
+-> "Poisener" springt auf benachbarten Gegner wenn sein aktuelles Ziel sterben sollte. ODER HINTERLÄSST EIN POISENFELD WENN DAS AKTUELLE ZIEL STIRBT WAS MEINT IHR??
 
 
 	// Normal
@@ -197,10 +216,7 @@ magic resistenz:
 
 -> Erweiterungen hier könnte es einige geben. Am besten einigt man sich am Anfang darauf, wieviele
    "Pfade" es geben soll. Ich wäre für einen gewissen Grundsatz an Upgrades und dann vielleicht 3 Trees
-   pro Tower. Bei Towers wo uns nix einfällt eventuell auch nur 2.
--> Weitere Sache über die man sich Gedanken machen sollte:
-   Sollen die Türme Attribute haben, die man verbessern kann, nur diese "Pfadupgrades" haben oder
-   vielleicht sogar beides?
+   pro Tower. Bei Towers wo uns nix einfällt eventuell auch nur 2. WAs MEINT IHR?:
    =============================================================================================================
    [Enemys]
    
